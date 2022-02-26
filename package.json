@@ -1,7 +1,7 @@
 {
-  "name": "deep-thoughts",
-  "description": "## Insctructions: Combine all four technologies of the MERN stack (MongoDB, Express.js, React, and Node.js) to build a social media application called Deep Thoughts. Users will be able to sign up and create an account, post their thoughts, and interact with other users, just like you might find in the social media apps you use day in and day out in real life.",
+  "name": "mern-social-media",
   "version": "1.0.0",
+  "description": "",
   "main": "server/server.js",
   "scripts": {
     "start": "node server/server.js",
@@ -9,18 +9,10 @@
     "install": "cd server && npm i && cd ../client && npm i",
     "seed": "cd server && npm run seed"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/gallolopez1/deep-thoughts.git"
-  },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/gallolopez1/deep-thoughts/issues"
-  },
-  "homepage": "https://github.com/gallolopez1/deep-thoughts#readme",
   "devDependencies": {
-    "concurrently": "^7.0.0"
+    "concurrently": "^5.1.0"
   }
 }
